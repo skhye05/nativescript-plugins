@@ -1,35 +1,40 @@
 {
-	"name": "@skhye05/multi-select",
-	"version": "1.0.7",
-	"description": "Multi Select popup dialog.",
-	"main": "index",
-	"typings": "index.d.ts",
-	"nativescript": {
-		"platforms": {
-			"ios": "6.0.0",
-			"android": "6.0.0"
-		}
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/NativeScript/plugins.git"
-	},
-	"keywords": [
-		"NativeScript",
-		"JavaScript",
-		"TypeScript",
-		"iOS",
-		"Android"
-	],
-	"author": {
+  "name": "@skhye05/multi-select",
+  "version": "1.0.2",
+  "description": "Multi Select popup dialog.",
+  "main": "index",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "ios": "6.0.0",
+      "android": "6.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skhye05/nativescript-plugins.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "Multi Select",
+    "MultiSelect",
+    "Select",
+    "Select Dialog",
+    "Popup Select",
+    "Multi Select Dialog"
+  ],
+  "author": {
     "name": "Jonathan Mayunga",
     "email": "mayunga.j@gmail.com"
-	},
-	"bugs": {
+  },
+  "bugs": {
     "url": "https://github.com/skhye05/nativescript-plugins/issues"
-	},
-	"license": "Apache-2.0",
+  },
+  "license": "Apache-2.0",
   "homepage": "https://github.com/skhye05/nativescript-plugins",
-	"readmeFilename": "README.md",
-	"bootstrapper": "@nativescript/plugin-seed"
+  "readmeFilename": "README.md",
+  "bootstrapper": "@nativescript/plugin-seed"
 }

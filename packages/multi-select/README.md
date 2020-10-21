@@ -1,30 +1,30 @@
 # Nativescript Multi Select ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png) 
 
-[![npm](https://img.shields.io/npm/v/nativescript-multi-select.svg)](https://www.npmjs.com/package/nativescript-multi-select)
-[![npm](https://img.shields.io/npm/dt/nativescript-multi-select.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-multi-select)
+[![npm](https://img.shields.io/npm/v/@skhye05/multi-select.svg)](https://www.npmjs.com/package/@skhye05/multi-select)
+[![npm](https://img.shields.io/npm/dt/@skhye05/multi-select.svg?label=npm%20downloads)](https://www.npmjs.com/package/@skhye05/multi-select)
 
 ## Overview
 
  Nativescript Multi Select is a popup dialog which provides multi selection, search through list and return the selected items.
 
 <p>
-  <img src="https://raw.githubusercontent.com/skhye05/NativeScript-Multi-Select/master/res/ios.gif"  width="300"/>
-  <img src="https://raw.githubusercontent.com/skhye05/NativeScript-Multi-Select/master/res/android.gif" width="300"/>
+  <img src="https://raw.githubusercontent.com/skhye05/nativescript-plugins/main/packages/multi-select/res/ios.gif"  width="300"/>
+  <img src="https://raw.githubusercontent.com/skhye05/nativescript-plugins/main/packages/multi-select/res/android.gif" width="300"/>
 </p>
 
 ## Installation
 
 ```javascript
-tns plugin add nativescript-multi-select
+tns plugin add @skhye05/multi-select
 ```
 
 ## Usage
 
-### <img src="https://raw.githubusercontent.com/skhye05/NativeScript-Multi-Select/master/res/typescript.png" width="20"/> TypeScript
+### <img src="https://raw.githubusercontent.com/skhye05/nativescript-plugins/main/packages/multi-select/res/typescript.png" width="20"/> TypeScript
 
 ```typescript
-import { MultiSelect, AShowType } from 'nativescript-multi-select';
-import { MSOption } from 'nativescript-multi-select';
+import { MultiSelect, AShowType } from '@skhye05/multi-select';
+import { MSOption } from '@skhye05/multi-select';
 
 let MSelect = new MultiSelect();
 let selectedItems = ["moi-a", "moi-b"];
@@ -67,12 +67,12 @@ const options: MSOption = {
 MSelect.show(options);
 ```
 
-### <img src="https://raw.githubusercontent.com/skhye05/nativescript-multi-select/master/res/angular.png" width="20"/> Angular
+### <img src="https://raw.githubusercontent.com/skhye05/nativescript-plugins/main/packages/multi-select/res/angular.png" width="20"/> Angular
 
 ```typescript
 import { Component, OnInit, NgZone } from "@angular/core";
-import { MultiSelect, AShowType } from 'nativescript-multi-select';
-import { MSOption } from 'nativescript-multi-select';
+import { MultiSelect, AShowType } from '@skhye05/multi-select';
+import { MSOption } from '@skhye05/multi-select';
 
 @Component({
  // ...
@@ -136,14 +136,14 @@ export class SomeComponent implements OnInit {
 }
 ```
 
-### <img src="https://raw.githubusercontent.com/skhye05/NativeScript-Multi-Select/master/res/vue.png" width="20"/> Vue
+### <img src="https://raw.githubusercontent.com/skhye05/nativescript-plugins/main/packages/multi-select/res/vue.png" width="20"/> Vue
 
 ```html
 <script>
   import {
     MultiSelect,
     AShowType
-  } from "nativescript-multi-select";
+  } from "@skhye05/multi-select";
   const MSelect = new MultiSelect();
   let predefinedItems = ["moi-a", "moi-b"];
   
